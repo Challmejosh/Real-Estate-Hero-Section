@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-image: url('istockphoto-1777918914-612x612\ 1.png');
+  background-size: cover;
+  height: 832px;
+}
+.navbar{
+  display: flex;
+  width: 1280px;
+  padding: 20px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo svg{
+  width: 50px;
+  height: 50px;
+}
+.logo h1{
+  color:  #FFD700;
+  font-family: "Futura PT";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.details{
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+.link{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.links{
+  color: #E2F6F8;
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+}
+.l-active{
+  color: var(--Real-estate-Brand-color, #FFD700);
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.drop{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.drop p{
+  color: #E2F6F8;
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.drop span svg{
+  width: 24px;
+  height: 24px;
+}
+.drop span{
+  text-align: center;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.button:nth-child(1){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFD700;
+  text-decoration: none;
+}
+.button:nth-child(2){
+  display: flex;
+  height: 50px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #FFD700;
+  color: #FFF;
+  text-decoration: none;
+}
+.button:nth-child(2) p{
+  color: #FFF;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.button:nth-child(1) p{
+  color: #FFD700;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero{
+  display: flex;
+  width: 654px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 220px 250px 221px 376px;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.message p:nth-child(1){
+  color: #FFF;
+  font-family: "Century Schoolbook";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.message p:nth-child(2){
+  color: #F8F6EE;
+  font-family: "Century Schoolbook";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+.message p:nth-child(1) span{
+  color: #FFD700;
+}
+.buttons{
+  display: flex;
+  padding: 8px 4px;
+  align-items: center;
+  gap: 24px;
+}
+.btns{
+  display: flex;
+  height: 50px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FFF;
+}
+.buttons .btns:nth-Child(2){
+  display: flex;
+  height: 50px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background:  #FFD700;
+  color: #FFFFFF;
+  border: 1px solid #FFD700;
+}
+.buttons .btns:nth-Child(1){
+  display: flex;
+  height: 50px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background:  transparent;
+  border: 1px solid #FFD700;
+}
+.btns p:nth-Child(2){
+  color: #FFF;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+.btns:nth-child(2) p{
+  color:  #FFF;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
